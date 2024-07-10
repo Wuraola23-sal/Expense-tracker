@@ -1,0 +1,260 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin: 30px 0 0px;
+  }
+  
+  hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header p {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+  }
+  
+  .get-started-btn {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .feature img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .feature div {
+    text-align: left;
+  }
+  
+  .feature h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .feature p {
+    margin: 0 0 0 10px;
+    font-size: 1em;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0;
+    padding: 20px;
+    border-left: 5px solid #007BFF;
+    display: inline-block;
+  }
+  
+  blockquote footer {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Tracker Section */
+  .tracker {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .container input[type="number"],
+  .container input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+  #expense-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #expense-list li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  /* Income and Expense Display */
+  .income-expense-display {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .income,
+  .expense {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .income h3,
+  .expense h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .income .money,
+  .expense .money {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .income .money {
+    color: green;
+  }
+  
+  .expense .money {
+    color: red;
+  }
+  
+  /* Transaction History */
+  ul li {
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    position: relative;
+    margin: 10px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .name h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .amount span {
+    font-weight: 600;
+    padding: 20px;
+  }
+  
+  /* Form Styles */
+  label {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  
+  #name, #amount {
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .add-btn {
+    cursor: pointer;
+    background-color: #0366D6;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+  }
